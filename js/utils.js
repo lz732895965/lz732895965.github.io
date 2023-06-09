@@ -1052,6 +1052,15 @@ const anzhiyu = {
       window.open("https://www.travellings.cn/go.html");
     }, "5000");
   },
+  
+  // 跳转个站
+  tostoreweb: function () {
+    anzhiyu.snackbarShow("即将跳转到「个站」项目的成员博客，不保证跳转网站的安全性和可用性", !1, 5000);
+    setTimeout(function () {
+      window.open("https://storeweb.cn/s/1628");
+    }, "5000");
+  },
+  
 
   // 工具函数替换字符串
   replaceAll: function (e, n, t) {
